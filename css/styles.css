@@ -1,0 +1,81 @@
+.sign-wrap-2 {
+    background: #502f00;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.sign-wrap-2 .sign-word {
+    font-size: 52px;
+    font-family: 'Caveat', cursive;
+    font-weight: 600;
+    line-height: 58px;
+    color: #FFF;
+    text-transform: uppercase;
+    animation: 2s neon-2 alternate-reverse infinite;
+}
+
+.sign-word-2 {
+    display: none;
+    width: 100%;
+    height: auto;
+    padding-top: 36px;
+}
+
+@keyframes neon-2 {
+    from {
+        text-shadow: 0 0 5px #FFF,
+            0 0 10px #FFF,
+            0 0 15px #FFF,
+            0 0 20px #BFE2FF;
+    }
+
+    to {
+        text-shadow: 0 0 20px #BFE2FF,
+            0 0 35px #BFE2FF,
+            0 0 40px #BFE2FF,
+            0 0 50px #BFE2FF,
+            0 0 800px #BFE2FF;
+    }
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    font-weight: 600;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    width: 108px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 15px;
+
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
