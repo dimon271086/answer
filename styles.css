@@ -1,7 +1,7 @@
 .sign-wrap-2 {
     background: #745b41;
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px;
 }
 
 .sign-wrap-2 .sign-word {
@@ -18,7 +18,7 @@
     display: none;
     width: 100%;
     height: auto;
-    padding-top: 36px;
+    padding-top: 30px;
 }
 
 @keyframes neon-2 {
