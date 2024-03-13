@@ -1,44 +1,45 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
 }
 
 .card {
-    width: 300px;
-    margin: 50px auto;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+	width: 300px;
+	margin: 50px auto;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	padding: 20px;
 }
 
 .content {
-    text-align: center;
+	text-align: center;
 }
 
 .sign-wrap-2 {
-    background: #745B53;
-    text-align: center;
-    padding: 20px;
-    min-height: 540px;
-}
+	background: #745b53;
+	text-align: center;
 
+   /*padding: 20px;*/
+	/*width: 100%;
+	height: 100%;*/
+	min-height: 540px;
+ }
 .sign-wrap-2 .sign-word {
-    font-size: 52px;
-    font-family: 'Caveat', cursive;
-    font-weight: 600;
-    line-height: 58px;
-    color: #FFF;
-    text-transform: uppercase;
-    animation: 2s neon-2 alternate-reverse infinite;
-}
-
-.sign-word-2 {
-    display: none;
-    width: 100%;
-    height: auto;
-    padding-top: 30px;
-}
+	font-size: 52px;
+	font-family: "Caveat", cursive;
+	font-weight: 600;
+	line-height: 58px;
+	color: #fff;
+	text-transform: uppercase;
+	animation: 2s neon-2 alternate-reverse infinite;
+ }
+ .sign-word-2 {
+	display: none;
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+ }
 
 @keyframes neon-2 {
     from {
